@@ -1,6 +1,6 @@
 using Microsoft.Xrm.Sdk.Query;
 
-namespace Formus.FlexSync.Survey.Mapping.Constants {
+namespace NAMESPACEHERE.Mapping.Constants {
   public static class Table1 {
     public
     const string TableName = "name_table";
