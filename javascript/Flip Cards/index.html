@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Meet the Team!</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <!-- Title and Accessibility Options-->
+    <div class="tickbox-container">
+        <h1>Meet the Team!</h1>
+        <label>
+            <input type="checkbox" id="reducedMotionCheckbox">
+            Reduced Motion
+        </label>
+
+        <label>
+            <input type="checkbox" id="disableAnimationsCheckbox">
+            Disable All Animations
+        </label>
+
+        <label for="cardSizeSlider">
+            <input type="range" id="cardSizeSlider" min="120" max="475" value="200">
+            Card Size
+        </label>
+
+        <label for="aspectRatioSlider">
+            <input type="range" id="aspectRatioSlider" min="1" max="1000" value="157">
+            Aspect Ratio
+        </label>
+    </div>
+
+
+
+    <!-- Cards Container -->
+    <div class="cards-container card-page-body">
+
+        <!-- CARD START -->
+        <div class="card">
+            <div class="card__inner">
+                <!-- Front -->
+                <div class="card__face card__face--front">
+                    <div class="light-overlay"></div>
+                    <div class="grain-overlay"></div>
+                    <div class="card__content card__content--front">
+                        <div class="card__image--front-fullsize">
+                            <img src="./image-here.png"/>
+                        </div>
+                        <div class="card__header--front gochi-hand-regular">
+                            <h2>Name here yes yes</h2>
+                        </div>
+                        <div class="card__body--front gochi-hand-regular">
+                            <h3>Role here</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- Back -->
+                <div class="card__face card__face--back">
+                    <div class="grain-overlay"></div>
+                    <div class="card__content card__content--back">
+                        <div class="tt__container">
+                            <div class="tt__top-box">
+                                <h2>Goku</h2>
+                                <p>
+                                    Goku constantly strives and trains to be the greatest warrior possible, 
+                                    which has kept the Earth and the universe safe from destruction multiple times.
+                                </p>
+                            </div>
+                            <div class="tt__bottom-box">
+                                <div class="tt__bottom-left"></div>
+                                <div class="tt__bottom-right">
+                                    <div class="tt__stats-block">
+                                        <div class="tt__stats-row">
+                                            <div class="tt__stats-name">Power Leve</div>
+                                            <div class="tt__stats-number">9001</div>
+                                        </div>
+                                        <div class="tt__stats-row">
+                                            <div class="tt__stats-name">Species</div>
+                                            <div class="tt__stats-number">Saiyan</div>
+                                        </div>
+                                        <div class="tt__stats-row">
+                                            <div class="tt__stats-name">Favourite Food</div>
+                                            <div class="tt__stats-number">Rice</div>
+                                        </div>
+                                        <div class="tt__stats-row">
+                                            <div class="tt__stats-name">Partner</div>
+                                            <div class="tt__stats-number">Chi Chi</div>
+                                        </div>
+                                        <div class="tt__stats-row">
+                                            <div class="tt__stats-name">Height</div>
+                                            <div class="tt__stats-number">175cm</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- CARD END -->
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
