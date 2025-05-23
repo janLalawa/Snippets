@@ -1,0 +1,41 @@
+.user-info-grid {
+    display: grid;
+    gap: 0.8rem;
+    padding: 1rem 0;
+}
+
+.info-item {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    align-items: start;
+    gap: var(--gap-8);
+}
+
+.info-label {
+    font-weight: 600;
+    color: #666;
+}
+
+.info-value {
+    color: #333;
+}
+
+.persona-list, .role-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap-8);
+}
+
+.persona-list span, .role-list span {
+    background-color: #f0f0f0;
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-size: 0.9rem;
+}
+
+.persona-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem;
+}

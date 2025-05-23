@@ -1,0 +1,20 @@
+class BeaconInfo:
+    beacon_owners: dict[str, str] = {
+        "C300001234CF": "Beacon Alpha",
+        "C300001234D1": "Beacon Beta",
+        "C300001234D2": "Beacon Gamma",
+        "C300001234D3": "Beacon Delta",
+        "C300001829ED": "Beacon Epsilon",
+        "C300001829EF": "Beacon Zeta",
+        "C300001829F2": "Beacon Eta",
+        "C300001829F3": "Beacon Theta",
+        "C300001829F4": "Beacon Iota",
+        "C300001829FB": "Beacon Kappa",
+        "C300001DA9C6": "Beacon Lambda",
+        "C300001DA9C7": "Beacon Mu",
+        "C300001DA9C8": "Beacon Nu",
+        "C300001DA9C9": "Beacon Xi",
+        "C300001234D0": "Beacon Omicron",
+        "C300001829F0": "Beacon Pi",
+        "C300001829F1": "Beacon Rho",
+    }

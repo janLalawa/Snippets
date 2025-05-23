@@ -1,0 +1,140 @@
+[
+  {
+    "RouterId": "AC233FC16FC4",
+    "BeaconId": "C300001234CF",
+    "SignalStrength": -65,
+    "LastSeen": "2024-03-13T13:00:01.494404+00:00"
+  },
+  {
+    "RouterId": "AC233FC16FC4",
+    "BeaconId": "C300001234D1",
+    "SignalStrength": -73,
+    "LastSeen": "2024-03-13T12:59:59.3826768+00:00"
+  },
+  {
+    "RouterId": "AC233FC16FC4",
+    "BeaconId": "C300001234D2",
+    "SignalStrength": -54,
+    "LastSeen": "2024-03-13T13:00:01.3709463+00:00"
+  },
+  {
+    "RouterId": "AC233FC16FC4",
+    "BeaconId": "C300001234D3",
+    "SignalStrength": -66,
+    "LastSeen": "2024-03-13T12:59:57.4421973+00:00"
+  },
+  {
+    "RouterId": "AC233FC16FC4",
+    "BeaconId": "C300001829ED",
+    "SignalStrength": -74,
+    "LastSeen": "2024-03-13T13:00:01.4406399+00:00"
+  },
+  {
+    "RouterId": "AC233FC16FC4",
+    "BeaconId": "C300001829EF",
+    "SignalStrength": -59,
+    "LastSeen": "2024-03-13T13:00:01.5282565+00:00"
+  },
+  {
+    "RouterId": "AC233FC16FC4",
+    "BeaconId": "C300001829F2",
+    "SignalStrength": -62,
+    "LastSeen": "2024-03-13T13:00:01.3619856+00:00"
+  },
+  {
+    "RouterId": "AC233FC16FC4",
+    "BeaconId": "C300001829F3",
+    "SignalStrength": -52,
+    "LastSeen": "2024-03-13T13:00:01.4077852+00:00"
+  },
+  {
+    "RouterId": "AC233FC16FC4",
+    "BeaconId": "C300001829F4",
+    "SignalStrength": -55,
+    "LastSeen": "2024-03-13T13:00:01.491418+00:00"
+  },
+  {
+    "RouterId": "AC233FC16FC4",
+    "BeaconId": "C300001829FB",
+    "SignalStrength": -69,
+    "LastSeen": "2024-03-13T13:00:01.3380911+00:00"
+  },
+  {
+    "RouterId": "AC233FC16FC4",
+    "BeaconId": "C300001DA9C6",
+    "SignalStrength": -72,
+    "LastSeen": "2024-03-13T12:59:58.5224542+00:00"
+  },
+  {
+    "RouterId": "AC233FC16FC4",
+    "BeaconId": "C300001DA9C7",
+    "SignalStrength": -75,
+    "LastSeen": "2024-03-13T13:00:01.5252688+00:00"
+  },
+  {
+    "RouterId": "AC233FC16FC4",
+    "BeaconId": "C300001DA9C8",
+    "SignalStrength": -68,
+    "LastSeen": "2024-03-13T13:00:01.4973909+00:00"
+  },
+  {
+    "RouterId": "AC233FC16FC4",
+    "BeaconId": "C300001DA9C9",
+    "SignalStrength": -66,
+    "LastSeen": "2024-03-13T13:00:00.3414671+00:00"
+  },
+  {
+    "RouterId": "AC233FC16FC7",
+    "BeaconId": "C300001234D0",
+    "SignalStrength": -65,
+    "LastSeen": "2024-03-13T13:00:00.2468818+00:00"
+  },
+  {
+    "RouterId": "AC233FC16FC7",
+    "BeaconId": "C300001829ED",
+    "SignalStrength": -77,
+    "LastSeen": "2024-03-13T13:00:01.104118+00:00"
+  },
+  {
+    "RouterId": "AC233FC16FC7",
+    "BeaconId": "C300001829F0",
+    "SignalStrength": -39,
+    "LastSeen": "2024-03-13T13:00:01.2275757+00:00"
+  },
+  {
+    "RouterId": "AC233FC16FC7",
+    "BeaconId": "C300001829F1",
+    "SignalStrength": -50,
+    "LastSeen": "2024-03-13T13:00:01.2405197+00:00"
+  },
+  {
+    "RouterId": "AC233FC16FC7",
+    "BeaconId": "C300001829F2",
+    "SignalStrength": -78,
+    "LastSeen": "2024-03-13T12:59:52.0737705+00:00"
+  },
+  {
+    "RouterId": "AC233FC16FC7",
+    "BeaconId": "C300001829FB",
+    "SignalStrength": -68,
+    "LastSeen": "2024-03-13T13:00:01.216624+00:00"
+  },
+  {
+    "RouterId": "AC233FC16FC7",
+    "BeaconId": "C300001DA9C6",
+    "SignalStrength": -72,
+    "LastSeen": "2024-03-13T12:59:48.2585233+00:00"
+  },
+  {
+    "RouterId": "AC233FC16FC7",
+    "BeaconId": "C300001DA9C7",
+    "SignalStrength": -71,
+    "LastSeen": "2024-03-13T12:59:56.1777504+00:00"
+  },
+  {
+    "RouterId": "AC233FC16FC7",
+    "BeaconId": "C300001DA9C9",
+    "SignalStrength": -72,
+    "LastSeen": "2024-03-13T13:00:01.1847641+00:00"
+  }
+]

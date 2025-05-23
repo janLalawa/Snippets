@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>FlexHR MyAccess</title>
+        <link rel="stylesheet" href="../css/core/main.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+<body>
+    <div id="app">
+        <div class="layout">
+            <div class="controls">
+                <button id="controls-back" class="button button-failure" title="Back" onclick="app.router.navigateBack()">
+                    <span>←</span>
+                </button>
+                <button id="controls-home" class="button button-primary" title="Home" onclick="app.router.navigateHome()">
+                    <span>⌂</span>
+                </button>
+                <button id="controls-refresh" class="button button-secondary" title="Refresh" onclick="app.router.refreshFullPage()">
+                    <span>↻</span>
+                </button>
+            </div>
+            <header class="header">
+                <div id="userGreeting"></div><div id="pageTitle"></div>
+            </header>
+            <main id="pageContainer" class="main">
+            </main>
+            <nav id="navigation" class="nav">
+            </nav>
+            <footer class="footer">
+                This is the footer
+            </footer>
+        </div>
+    </div>
+
+    <script src="../../ClientGlobalContext.js.aspx"></script>
+
+    <script src="../js/core/config.js"></script>
+    <script src="../js/core/mock-xrm.js"></script>
+    <script src="../js/core/user.js"></script>
+    <script src="../js/core/router.js"></script>
+    <script src="../js/core/app.js"></script>
+    <script src="../js/core/data-binding.js"></script>
+</body>
+</html>

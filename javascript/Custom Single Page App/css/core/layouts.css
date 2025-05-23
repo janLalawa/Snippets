@@ -1,0 +1,190 @@
+
+/* Default Layout (Desktop) */
+.bento-container.default-layout {
+    grid-template-areas: 
+        "large large small-1 small-2"
+        "large large medium-1 medium-1"
+        "small-3 medium-2 medium-2 medium-2";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* MyDetails Layout */
+.bento-container.mydetails-layout {
+    grid-template-areas: 
+        "main-content main-content leave-allowance"
+        "main-content main-content leave-allowance"
+        "main-content main-content manager-info";
+    grid-template-columns: 3fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr 2fr;
+}
+
+/* MyRequests Layout */
+.bento-container.myrequests-layout {
+    grid-template-areas: 
+        "large large small-1"
+        "large large small-1"
+        "large large small-1";
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+/* MyTeam Layout */
+.bento-container.myteam-layout {
+    grid-template-areas: 
+        "large";
+    grid-template-columns: 1fr;
+}
+
+/* MyCalendar Layout */
+.bento-container.mycalendar-layout {
+    grid-template-areas: 
+        "calendar calendar info info"
+        "calendar calendar info info"
+        "calendar calendar interaction-1 interaction-2"
+        "datepicker key interaction-1 interaction-2";
+    grid-template-columns: 2fr 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+/* Home Page Layout */
+.bento-container.home-layout {
+    grid-template-areas: 
+        "welcome welcome welcome personas"
+        "userinfo userinfo glance glance";
+    grid-template-columns: auto auto auto auto;
+    grid-auto-rows: minmax(min-content, auto);
+}
+
+/* Small Desktop Layout (1024px to 1439px) */
+@media (max-width: 1439px) {
+    .bento-container.default-layout {
+        grid-template-areas: 
+            "large large small-1"
+            "large large small-2"
+            "medium-1 medium-2 small-3";
+        grid-template-columns: 3fr 3fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .bento-container.myrequests-layout {
+        grid-template-areas: 
+            "large large small-1"
+            "large large small-1"
+            "large large small-1";
+        grid-template-columns: 2fr 2fr 4fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}
+
+/* Tablet Layout (768px to 1023px) */
+@media (max-width: 1023px) {
+    .layout{
+        grid-template-areas:
+        "header header"
+        "main nav"
+        "footer footer"
+        "controls controls";
+    grid-template-columns: 1fr var(--nav-width);
+    grid-template-rows: auto 1fr auto auto;
+    }
+
+    .bento-container.default-layout {
+        grid-template-areas: 
+            "large large"
+            "small-1 small-2"
+            "small-3 medium-1"
+            "medium-2 medium-2";
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .bento-container.mydetails-layout {
+        grid-template-areas: 
+            "main-content main-content"
+            "leave-allowance manager-info";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+
+    .bento-container.mycalendar-layout {
+        grid-template-areas: 
+            "datepicker key"    
+            "calendar calendar"
+            "interaction-1 interaction-2"
+            "info info";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 3fr 2fr 2fr;
+    }
+
+    .bento-container.myrequests-layout {
+        grid-template-areas: 
+            "large"
+            "large"
+            "small-1";
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Mobile Layout (up to 767px) */
+@media (max-width: 767px) {
+    .layout{
+        grid-template-areas:
+        "header header"
+        "main nav"
+        "footer footer"
+        "controls controls";
+    grid-template-columns: 1fr var(--nav-width);
+    grid-template-rows: auto 1fr auto auto;
+    }
+
+    
+    .bento-container.default-layout {
+        grid-template-areas: 
+            "large"
+            "small-1"
+            "small-2"
+            "small-3"
+            "medium-1"
+            "medium-2";
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .bento-container.mydetails-layout {
+        grid-template-areas: 
+            "main-content"
+            "leave-allowance"
+            "manager-info";
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .bento-container.myrequests-layout {
+        grid-template-areas: 
+            "large"
+            "small-1";
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .bento-container.mycalendar-layout {
+        grid-template-areas: 
+            "datepicker key"    
+            "calendar calendar"
+            "interaction-1 interaction-2"
+            "info info";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 3fr 2fr 2fr;
+    }
+}
+
+/* Responsive padding and gap adjustments */
+@media (max-width: 768px) {
+    .bento-container {
+        gap: 0.5rem;
+    }
+
+    .bento-item {
+        min-height: 80px;
+        padding: 0.5rem;
+    }
+}

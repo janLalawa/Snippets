@@ -1,0 +1,113 @@
+:root {
+    /* Colours */
+    --colour-primary: #36a5ed;
+    --colour-primary-25: rgba(54, 165, 237, 0.25);
+    --colour-primary-desaturated: #ddf2fd;
+    --colour-primary-desaturated1: #c7dae4;
+    --colour-primary-desaturated2: #b1c2ca;
+
+    --colour-secondary: #a36df0;
+    --colour-secondary-25: rgba(163, 109, 240, 0.25);
+    --colour-secondary-desaturated: #ecddfd;
+    --colour-secondary-desaturated1: #d4c7e4;
+    --colour-secondary-desaturated2: #bdb1ca;
+
+    --colour-success: #46884c;
+    --colour-success-desaturated: #a4fcce;
+    --colour-success-desaturated1: #83e6ad;
+    --colour-success-desaturated2: #73d69d;
+
+    --colour-failure: #b4123f;
+    --colour-failure-desaturated: #f48ba8;
+    --colour-failure-desaturated1: #dc7d97;
+    --colour-failure-desaturated2: #c36f86;
+    
+    --colour-background: #f6f6f6;
+    --colour-foreground: #ffffff;
+    --colour-container-editable: #f4f4f4;
+    --colour-container-inactive: #e8e8e8;
+    --colour-dropshadow: #00000033;
+
+    --colour-text: #070504;
+    --colour-text-inactive: #4a4a4a;
+    --colour-text-inactive-25: rgba(74, 74, 74, 0.25);
+    --colour-text-inactive-50: rgba(74, 74, 74, 0.50);
+
+
+    --colour-vignette-dark: rgba(0, 0, 0, 0.04);
+    --colour-vignette-light: rgba(105, 105, 105, 0.04);
+
+    --colour-cal-approved: #46884c;
+    --colour-cal-pending: #f4a261;
+    --colour-cal-rejected: #b4123f;
+    --colour-cal-sickness: #36a5ed;
+    --colour-cal-training: #a36df0;
+    --colour-cal-bank-holiday: #2a9d8f;
+    --colour-cal-other: #6c757d;
+
+
+    --vh-sizing: 80vh;
+    --max-page-width: 2000px;
+
+    --base-unit: 0.25rem;
+
+    /* Gaps */
+    --gap-4: calc(var(--base-unit) * 1);
+    --gap-8: calc(var(--base-unit) * 2);
+    --gap-16: calc(var(--base-unit) * 4);
+    --gap-24: calc(var(--base-unit) * 6);
+
+    /* Border radii */
+    --radius-4: calc(var(--base-unit) * 1);
+    --radius-6: calc(var(--base-unit) * 1.5);
+    --radius-8: calc(var(--base-unit) * 2);
+    --radius-12: calc(var(--base-unit) * 3);
+    --radius-16: calc(var(--base-unit) * 4);
+
+    /* Container heights */
+    --container-xs: calc(var(--base-unit) * 3.75);
+    --container-sm: calc(var(--base-unit) * 7.5);
+    --container-md: calc(var(--base-unit) * 15);
+    --container-lg: calc(var(--base-unit) * 30);
+
+    /* Navigation specific */
+    --nav-width: clamp(130px, 5vw, 200px);
+
+
+    /* Typography - Font Families */
+    --font-family-primary: 'Arial Rounded MT', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    --font-family-bold: 'Arial Rounded MT Bold', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    --font-family-secondary: 'Open Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+    /* Typography - Font Sizes */
+    --font-size-h1: clamp(1.4rem, 4vw, 1.8rem);
+    --font-size-h2: clamp(1.2rem, 3.5vw, 1.6rem);
+    --font-size-h3: clamp(1rem, 3vw, 1.2rem);
+    --font-size-button: clamp(1rem, 3vw, 1.2rem);
+    --font-size-field-header: clamp(0.95rem, 2.5vw, 1.05rem);
+    --font-size-field-content: clamp(0.9rem, 2.5vw, 1rem);
+    --font-size-paragraph: clamp(0.8rem, 2vw, 0.9rem);
+
+
+    /* Typography - Font Weights */
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+
+    /* Typography - Line Heights */
+    --line-height-default: 1.1;
+    --line-height-heading: 1.2;
+    --line-height-small: 0.9;
+
+    /* Typography - Letter Spacing */
+    --letter-spacing-caps: 0.05em;
+
+    /* Typography - Composed Styles */
+    --text-h1: var(--font-weight-bold) var(--font-size-h1) var(--font-family-bold);
+    --text-h2: var(--font-weight-regular) var(--font-size-h2) var(--font-family-primary);
+    --text-h3: var(--font-weight-bold) var(--font-size-h3) var(--font-family-bold);
+    --text-button: var(--font-weight-bold) var(--font-size-button) var(--font-family-bold);
+    --text-field-header: var(--font-weight-bold) var(--font-size-field-header) var(--font-family-primary);
+    --text-field-content: var(--font-weight-regular) var(--font-size-field-content) var(--font-family-primary);
+    --text-paragraph: var(--font-weight-regular) var(--font-size-paragraph) var(--font-family-primary);
+    --text-inactive: var(--font-weight-regular) var(--font-size-paragraph) var(--font-family-primary);
+}
