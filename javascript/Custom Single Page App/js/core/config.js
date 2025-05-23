@@ -1,5 +1,5 @@
 class Config {
-    static get DEFAULT_ROUTE() { return 'flexhr_home'; }
+    static get DEFAULT_ROUTE() { return 'prefix_home'; }
 
     static get ROLES() {
         return {
@@ -20,11 +20,11 @@ class Config {
 
     static get ROUTES() {
         return {
-            MY_DETAILS: 'flexhr_mydetails',
-            MY_TEAM: 'flexhr_myteam',
-            MY_CALENDAR: 'flexhr_mycalendar',
-            MY_REQUESTS: 'flexhr_myrequests',
-            COMPONENTS: 'flexhr_components'
+            MY_DETAILS: 'prefix_mydetails',
+            MY_TEAM: 'prefix_myteam',
+            MY_CALENDAR: 'prefix_mycalendar',
+            MY_REQUESTS: 'prefix_myrequests',
+            COMPONENTS: 'prefix_components'
         };
     }
 
